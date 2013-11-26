@@ -30,7 +30,7 @@ int main()
 	curl_easy_setopt(myHandle, CURLOPT_POSTFIELDS, data);
 	curl_easy_perform(myHandle);
 
-	curl_easy_cleanup(myHandle);
+	curl_easy_cleanup(myHandle); 
 
 
 	return(0);
