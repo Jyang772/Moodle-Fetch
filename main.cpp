@@ -1,3 +1,11 @@
+/** RESEARCH:
+ * 
+ *         http://www.unknowncheats.me/forum/c-and-c/67493-c-log-winsock.html
+ * 
+ * */
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
