@@ -1,7 +1,11 @@
 /** RESEARCH:
  * 
- *         http://www.unknowncheats.me/forum/c-and-c/67493-c-log-winsock.html
+ *
+ *	http://www.unknowncheats.me/forum/c-and-c/67493-c-log-winsock.html
+ * 	http://msdn.microsoft.com/en-us/library/ms740673%28VS.85%29.aspx
  * 
+ * 
+ * 	Must use Winsock2.h
  * */
 
 
@@ -12,6 +16,7 @@
 #include <curl/curl.h>
 #include <curl/types.h>
 #include <curl/easy.h>
+#include <winsock2.h>
 
 
 int main()
